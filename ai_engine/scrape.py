@@ -83,5 +83,5 @@ for i, jucator in enumerate(jucatori):
     time.sleep(2)
 
 df = pd.DataFrame(jucatori)
-df.to_csv('top_500_jucatori.csv', index=False)
-print("\nGATA! Baza ta de date completă a fost salvată în 'top_500_jucatori.csv'")
+df.to_csv('top_500.csv', index=False)
+print("\nGATA! Baza ta de date completă a fost salvată în 'top_500.csv'")
